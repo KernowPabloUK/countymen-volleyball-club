@@ -4,26 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countrymen Volleyball Club</title>
+    <title href="https://fontawesome.com/icons/volleyball?f=classic&s=solid">Countrymen Volleyball Club</title>
     <!-- Bootstrap css styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <!-- Custom css styles -->
-    <!-- TODO -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Countrymen Volleyball Club</a>
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-volleyball"></i> Countrymen Volleyball Club
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedConten" aria-controls="navbarSupportedConten" aria-expanded="false"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="#navbarSupportedConten">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
@@ -31,10 +33,10 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="timetable.html">Timetable</a> <!-- TODO Add Timetable page -->
+                        <a class="nav-link" href="timetable.html">Timetable</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a> <!-- Add Gallery Page -->
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -44,13 +46,82 @@
         </div>
     </nav>
 
+    <!-- header -->
+    <header id="hero" class="container">
+        <!-- section with hero image -->
+        <section class="row">
+            <!-- text-center class used to centre all text inside column -->
+            <div class="col-12 text-center">
+                <h1 class="display-4 my-4">Countrymen Volleyball Club</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi repellat magni, consequatur ab
+                    pariatur mollitia ex cum cumque similique sint animi unde iure ratione optio. Asperiores tenetur
+                    nobis debitis dolore?
+                </p>
+                <!-- mb-5 gives extra margin spacing under lead text -->
+                <p class="lead mb-5">See you on the court!</p>
+                <img src="assets/images/Countrymen-600-DSCN9693.webp" alt="" width="100%">
+        </section>
+    </header>
 
-    <!-- Bootstrap css script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
-    <!-- Font awesome script -->
-    <script src="https://kit.fontawesome.com/8669560caa.js" crossorigin="anonymous"></script>
+    <main>
+        <!-- About section links to #about href in navbar -->
+        <section id="about" class="container">
+            <div class="row">
+                <!-- my-4 used to add top and bottom margin to heading -->
+                <div class="col-12 text-center my-4">
+                    <h2 class="display-5">About Countrymen Volleyball club</h2>
+                </div>
+                <!-- mb-4 used to add margin under image -->
+                <div class="col-12 col-md-6 mb-4">
+                    <!-- img-fluid class makes the image responsive to its container -->
+                    <img src="assets/images/exvzqcvorticinejmmel.webp" class="img-fluid" alt="Countrymen Volleball">
+                </div>
+                <!-- mb-4 used to add margin under text -->
+                <div class="col-12 col-md-6 mb-4">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quas, fuga voluptatibus blanditiis
+                        architecto quo est libero ex delectus? Necessitatibus non expedita quidem ipsa voluptatem
+                        dolorem aperiam fugiat vero eum.
+                    </p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quas, fuga voluptatibus blanditiis
+                        architecto quo est libero ex delectus? Necessitatibus non expedita quidem ipsa voluptatem
+                        dolorem aperiam fugiat vero eum.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer mt-auto fixed-bottom py-2 bg-body-tertiary justify-content-center text-center">
+            <div class="container pb-2">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)">
+                            <i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="col-4">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)">
+                            <i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="col-4">
+                        <a href="https://maps.app.goo.gl/jbKusN1aCMt4Ro9s8" target="_blank" rel="noopener"
+                            aria-label="Visit our Google Maps main training location page (opens in a new tab)">
+                            <i class="fa-solid fa-location-dot"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Bootstrap css script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+        <!-- Font awesome script -->
+        <script src="https://kit.fontawesome.com/8669560caa.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
