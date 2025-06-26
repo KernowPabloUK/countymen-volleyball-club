@@ -1,4 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+:root {
+    --font: "Nunito Sans", Arial, Helvetica, sans-serif;
+    --primary-color: #000;
+    --secondary-color: #eff6f1;
+    --tertiary-color: #fec506;
+}
 
 body {
-background-color: #D8DAD3;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--font);
+}
+
+.navbar, .footer {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar a{
+    color: var(--secondary-color);
+}
+
+.navbar a:hover{
+    color: var(--tertiary-color);
+}
+
+#navbar-logo {
+    max-width: 16%;
+    max-height: 16%;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    color: #fec506;
+}
+
+
+#logo-hero-image {
+    max-width: 80%;
+}
+
+#h1-location-anchor {
+    font-size: 2.8rem;
+}
+
+#h1-location-anchor a {
+    color: var(--tertiary-color);
+}
+
+header {
+    margin-top: 2rem;
+}
+
+header p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#lead-signoff {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-shadow: 0 0 38px var(--tertiary-color)
+}
+
+#builder {
+    font-size: 1.2rem;
+}
+
+.footer-icon {
+    font-size: 2rem;
+}
+
+strong {
+    font-size: 1.1rem;
+    color: var(--tertiary-color);
 }
