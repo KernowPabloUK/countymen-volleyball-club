@@ -80,10 +80,6 @@ header p {
     text-shadow: 0 0 38px var(--tertiary-color);
 }
 
-#builder {
-    font-size: 1.2rem;
-}
-
 .footer-icon {
     font-size: 2rem;
 }
@@ -110,4 +106,8 @@ iframe {
 .navbar-nav .nav-link.active {
     color: var(--tertiary-color) !important;
     font-size: 1.2rem;
+}
+
+.website-builder {
+    font-size: 0.6rem;
 }
