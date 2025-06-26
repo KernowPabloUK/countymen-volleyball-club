@@ -21,7 +21,8 @@ body {
     color: var(--secondary-color);
 }
 
-.navbar a:hover{
+.navbar a:hover,
+.navbar a:focus{
     color: var(--tertiary-color);
 }
 
@@ -45,11 +46,11 @@ a:hover {
     max-width: 80%;
 }
 
-#h1-location-anchor {
+.h1-location-anchor {
     font-size: 2.8rem;
 }
 
-#h1-location-anchor a {
+.h1-location-anchor a {
     color: var(--tertiary-color);
 }
 
@@ -76,11 +77,15 @@ header p {
     font-size: 2rem;
 }
 
-strong {
+a strong {
     font-size: 1.1rem;
     color: var(--tertiary-color);
 }
 
 em {
     font-size: 0.8rem;
+}
+
+#under-construction {
+    font-size: 2.8rem;
 }
