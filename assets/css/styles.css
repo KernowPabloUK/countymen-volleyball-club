@@ -31,9 +31,13 @@ h1 {
     color: var(--tertiary-color);
 }
 
+button {
+    color: var(--secondary-color) !important;
+}
+
 #navbar-logo {
-    max-width: 16%;
-    max-height: 16%;
+    max-width: 12%;
+    max-height: 12%;
     -o-object-fit: contain;
     object-fit: contain;
 }
