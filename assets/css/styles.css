@@ -80,3 +80,7 @@ strong {
     font-size: 1.1rem;
     color: var(--tertiary-color);
 }
+
+em {
+    font-size: 0.8rem;
+}
