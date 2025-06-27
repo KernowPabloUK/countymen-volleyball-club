@@ -85,12 +85,8 @@ header p {
 }
 
 a strong {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--tertiary-color);
-}
-
-em {
-    font-size: 0.8rem;
 }
 
 #under-construction {
